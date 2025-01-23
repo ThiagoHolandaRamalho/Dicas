@@ -19,10 +19,7 @@
 2. flake8
 3. isort
 
-criar o arquivo **.flake8** e adcionar as exceções 
-ex: 
-  [flake8]
-  max-line-length = 90
-  extend-ignore = E203,E701
+criar o arquivo **.flake8** e adicionar as exceções 
+  ![image](https://github.com/user-attachments/assets/bb2e8388-4f70-4445-905d-3352aca9665d)
 
 
