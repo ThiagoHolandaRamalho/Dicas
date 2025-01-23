@@ -6,7 +6,7 @@
 
 2.Cria novo projeto: poetry new "nome do projeto"
 
-3.inicializa o poetry em um projeto existente: <strong poetry init>
+3.inicializa o poetry em um projeto existente: < strong poetry init />
 
 4.Determnina a versão do pyhton que será utilizada no projeto: pyenv local "3.*.*.*"
 
