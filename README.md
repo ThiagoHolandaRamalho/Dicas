@@ -16,18 +16,23 @@
 
 # Formatadores de código
 1. black
+<pre><code> poetry add black </code></pre>
 2. flake8
-3. isort
+<pre><code> poetry add flake8 </code></pre>
+3.isort 
+<pre><code> poetry add isort </code></pre>
 
 criar o arquivo **.flake8** e adicionar as exceções 
   ![image](https://github.com/user-attachments/assets/bb2e8388-4f70-4445-905d-3352aca9665d)
 
+adicionar o tools no arquivo **.toml**
+![image](https://github.com/user-attachments/assets/b1c0b41a-5a93-4ca7-8011-69daba6cbd3c)
 
 
 # pre-commit
 
-1.Instalar o pre-commit : **poetry add pre-commit**
-2.Criar o arquivo: **.pre-commit-config.yaml**
+1.Instalar o pre-commit : <pre><code>**poetry add pre-commit**</code></pre>
+2.Criar o arquivo: <pre><code>**.pre-commit-config.yaml**</code></pre>
 3.Exemplo de hook utilizando as ferramentas de formatação:
 <pre>
   <code>
@@ -58,4 +63,7 @@ repos:
       - id: flake8
   </code>
 </pre>
+
+4. Instalar o pre-commit na extensão git
+<pre><code> poetry run pre-commit install  </code></pre>
 
