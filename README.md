@@ -1,6 +1,6 @@
 # Dicas
 
-#Poetry 
+# Poetry 
 
 #autoriza o poetry gerenciar os ambientes virtuais 
 poetry config virtualenvs.in-project true
