@@ -14,3 +14,15 @@
 
 6.Instala as dependências do arquivo .toml: **poetry install --no-root**
 
+# Formatadores de código
+1. black
+2. flake8
+3. isort
+
+criar o arquivo **.flake8** e adcionar as exceções 
+ex: 
+  [flake8]
+  max-line-length = 90
+  extend-ignore = E203,E701
+
+
