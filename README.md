@@ -4,15 +4,15 @@
 
 1.autoriza o poetry gerenciar os ambientes virtuais: <pre><code>**poetry config virtualenvs.in-project true**</code></pre>
 
-2.Cria novo projeto: **poetry new "nome do projeto"**
+2.Cria novo projeto: <pre><code> **poetry new "nome do projeto"**</code></pre>
 
-3.inicializa o poetry em um projeto existente: **poetry init**
+3.inicializa o poetry em um projeto existente: <pre><code> **poetry init**</code></pre>
 
-4.Determnina a versão do pyhton que será utilizada no projeto: **pyenv local "3.*.*.*"**
+4.Determnina a versão do pyhton que será utilizada no projeto: <pre><code> **pyenv local "3.*.*.*"**</code></pre>
 
-5.Cria o ambiente virtual: **poetry env use "3.*.*.*"**
+5.Cria o ambiente virtual: <pre><code>**poetry env use "3.*.*.*"**</code></pre>
 
-6.Instala as dependências do arquivo .toml: **poetry install --no-root**
+6.Instala as dependências do arquivo .toml: <pre><code>**poetry install --no-root**</code></pre>
 
 # Formatadores de código
 1. black
