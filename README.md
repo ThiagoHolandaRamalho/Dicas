@@ -2,10 +2,14 @@
 
 # Poetry 
 
-#autoriza o poetry gerenciar os ambientes virtuais 
+--autoriza o poetry gerenciar os ambientes virtuais 
 poetry config virtualenvs.in-project true
 
+-- Cria novo projeto
 Poetry new "nome do projeto"
+
+--inicializa o poetry em um projeto existente
+poetry init
 
 Pyenv local "3.*.*.*"
 
